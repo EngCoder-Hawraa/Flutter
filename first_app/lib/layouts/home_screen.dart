@@ -13,8 +13,9 @@ class HomeScreen extends StatelessWidget{
           child: Text("Hi Flutter", textDirection: TextDirection.ltr,
                style: TextStyle(
                    color: Colors.black,
-                   fontWeight: FontWeight.bold,
-                   fontSize: 70
+                   fontSize: 70,
+                   fontFamily: "Ranga",
+                   fontWeight: FontWeight.w700
                ),
         ),
       )
